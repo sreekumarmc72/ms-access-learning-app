@@ -87,13 +87,13 @@ const Answer = () => {
                                     value={fieldValues[index] || ""}
                                     onChange={(e) => handleInputChange(index, e.target.value)}
                                     style={{
-                                        backgroundColor: invalidAnswers.includes(index) ? '#B52556' : '#f8f9fa',
-                                        color: invalidAnswers.includes(index) ? 'white' : '#333',
-                                        border: "1px solid #ccc",
+                                        backgroundColor: invalidAnswers.includes(index) ? '#FCE8F1' : '#fff',
+                                        border: `1px solid ${invalidAnswers.includes(index) ? '#B52556' : '#ccc'}`,
                                         borderRadius: "5px",
                                         padding: "10px",
                                         width: "100%",
-                                        textAlign: "left"
+                                        textAlign: "left",
+                                        boxShadow: invalidAnswers.includes(index) ? '0px 0px 5px #B52556' : 'none'
                                     }}
                                     rows={5}
                                 />
