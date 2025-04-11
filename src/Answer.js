@@ -7,11 +7,11 @@ import { Modal, Button, Table } from "react-bootstrap";
 const questions = [
     {
         question: "Query to Identify Students Attending May 2025 Examination",
-        answer: "SELECT ID, Name, Address, Contact, JoinDate, Attempt_of_exam FROM student_details WHERE Attempt_of_exam = 'May 2025';"
+        answer: "SELECT student_details.ID, student_details.Name, student_details.Address, student_details.Contact, student_details.JoinDate, student_details.Attempt_of_exam FROM student_details WHERE student_details.Attempt_of_exam = 'May 2025';"
     },
     {
         question: "Query to Identify Students Attending December 2024 Examination",
-        answer: "SELECT ID, Name, Address, Contact, JoinDate, Attempt_of_exam FROM student_details WHERE Attempt_of_exam = 'December 2024';"
+        answer: "SELECT student_details.ID, student_details.Name, student_details.Address, student_details.Contact, student_details.JoinDate, student_details.Attempt_of_exam FROM student_details WHERE student_details.Attempt_of_exam = 'December 2024';"
     }
 ];
 

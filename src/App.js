@@ -53,7 +53,7 @@ export const App = () => {
                                     </p>
 
                                     <h4><b>Your task</b></h4>
-                                    <p style={{ fontWeight: "600" }}>Using the following table format, create the following select queries in MS Access:</p>
+                                    <p style={{ fontWeight: "600" }}>Using the following table student_details, create the following select queries in MS Access:</p>
 
                                     <table style={{ border: "1px solid #ccc", width: "100%" }}>
                                         <thead>
@@ -62,8 +62,8 @@ export const App = () => {
                                                 <th>Name</th>
                                                 <th>Address</th>
                                                 <th>Contact</th>
-                                                <th>Join Date</th>
-                                                <th>Attempt of Exam</th>
+                                                <th>JoinDate</th>
+                                                <th>Attempt_of_exam</th>
                                             </tr>
                                         </thead>
                                         <tbody>
